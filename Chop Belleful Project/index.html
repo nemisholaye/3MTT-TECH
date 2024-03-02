@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Healthy Eating App</title>
+</head>
+<body>
+
+    <header>
+        <h1>Healthy Eating App</h1>
+        <!-- Add navigation links or buttons here -->
+    </header>
+
+    <main>
+        <section id="mealLog">
+            <h2>Meal Log</h2>
+            <!-- Form for logging meals -->
+            <form id="mealForm">
+                <label for="mealName">Meal Name:</label>
+                <input type="text" id="mealName" name="mealName" required>
+
+                <label for="mealDescription">Description:</label>
+                <textarea id="mealDescription" name="mealDescription"></textarea>
+
+                <label for="mealPhoto">Meal Photo:</label>
+                <input type="file" id="mealPhoto" name="mealPhoto">
+
+                <button type="submit">Log Meal</button>
+            </form>
+        </section>
+
+        <section id="healthScore">
+            <h2>Health Score</h2>
+            <p id="scoreValue">Score: 0</p>
+            <!-- Display health score and recommendations here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Healthy Eating App</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

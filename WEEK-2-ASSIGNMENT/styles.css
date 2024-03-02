@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.profile h1 {
+    color: red;
+}
+.skills {
+text-align: center;
+}
+h2 {
+    color: red;
+}
+ul {
+    list-style-position: inside;
+}
+.todo {
+    text-align: center;
+}
+h2 {
+    padding-left: 30px;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+    text-align: left;
+
+
+}
+li {
+    margin: 0 auto;
+}
